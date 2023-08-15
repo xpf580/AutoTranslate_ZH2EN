@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zh2en"
+version = "0.1.0"
+description = "no dsecription"
+authors = ["xpf580 <1286020114@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8,<4.0"
+googletrans = "4.0.0-rc1"
+
+[tool.poetry.dev-dependencies]
+pyinstaller = { version = "*", python = ">=3.8,<3.13" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
